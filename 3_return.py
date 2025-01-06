@@ -1,7 +1,19 @@
+
+def create_name(first, last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return first + " " + last
+
+full_name = create_name("Daniel", "Reyes")
+print(full_name)
+
 # Return Practice #1
 # Create a function called power that takes two numeric values as arguments. It must return the number that results from solving a power, using the first number as the base, and the second as the exponent
 
-
+def power(number1, number2):
+    return number1 ** number2
+    
+    
 
 
 
