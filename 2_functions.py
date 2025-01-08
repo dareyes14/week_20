@@ -30,6 +30,6 @@ name = "Daniel"
 # You should only define the function and create the variable, you should not call the function afterwards.
 
 def square(number):
-    print(f(number))
+    print(number)
 
 number = 1
